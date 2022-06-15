@@ -1,0 +1,112 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.1.3/dist/css/bootstrap.min.css" rel="stylesheet" integrity="sha384-1BmE4kWBq78iYhFldvKuhfTAU6auU8tT94WrHftjDbrCEXSU1oBoqyl2QvZ6jIW3" crossorigin="anonymous">
+    <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/bootstrap-icons@1.8.1/font/bootstrap-icons.css">
+    <link rel="stylesheet" href="css/style.css">
+    <title>Mon Compte</title>
+</head>
+<body>
+<header class="sticky-top">
+    <div class="container-fluid bg-light">
+        <ul class="nav ">
+            <li class="nav-link fw-bold">Fake BnB!</li>
+            <li class="nav-item">
+                <li class="nav-item ">
+                    <a class="nav-link" href="index.html">Acceuil</a>
+                </li>
+                <a class="nav-link" href="Annonces.html">Annonces</a>
+            </li>
+            <li class="nav-item">
+                <a class="nav-link" href="Propriétaires.html">Propriétaires</a>
+            </li>
+            <li class="nav-item">
+                <a class="nav-link active" aria-current="page" href="Nous-contacter.html">Nous contacter</a>
+            </li>
+            <div class="col text-end">
+            <li class="nav-item">
+              <a class="nav-link"  href="Mon-compte.html">Mon Compte!</a>
+            </li>
+            </div>
+        </div>
+</header>
+<main>
+        <div class="container bg-light bg-opacity-75 mt-4">
+            <div class="row">
+                <h1>Nous Contactez</h1>
+                <form class="row g-3">
+                    <div class="col-md-6">
+                        <label for="validationServer01" class="form-label">Nom</label>
+                        <input type="text" class="form-control is-valid" id="validationServer01" value="Mark" required>
+                        
+                    </div>
+                    <div class="col-md-6">
+                        <label for="validationServer02" class="form-label">Prénom</label>
+                        <input type="text" class="form-control is-valid" id="validationServer02" value="Otto" required>
+                    </div>
+
+                    <div class="col-md-6">
+                        <label for="validationServer02" class="form-label">Email</label>
+                        <input type="email" class="form-control is-valid" id="validationServer02" value="Otto" required>
+                    </div>
+                      <div class="col-md-6">
+                        <label for="phone_no" class="form-label">Numéro de tel</label>
+                        <input type="text" class="form-control is-valid" id="validationServer04" aria-describedby="validationServer03Feedback" required>
+                    </div>
+
+                    <div class="col-md-12">
+                        <label for="validationServer05" class="form-label">objet</label>
+                        <input type="text" class="form-control is-valid" id="validationServer05" value="Otto" required>
+                    </div>
+
+                    <div class="form-floating col-md-12">
+                        <textarea class="form-control" placeholder="Leave a comment here" id="floatingTextarea"></textarea>
+                        <label for="floatingTextarea">Message</label>
+                      </div>
+
+                    <div>
+                        <a class="btn btn-danger text-light mb-0 d-grid gap-2 col-3 mx-auto " href="form" class="row g-3" role="button">Envoyer</a>
+                    </div>
+                </form>
+                <hr class="mt-4">
+
+                <H1>Nous Trouver</H1>
+                <div class="container">
+                    <div class="row row-cols-1 row-cols-md-2 g-4">
+                        <div class="col">
+                            <iframe src="https://www.google.com/maps/embed?pb=!1m14!1m12!1m3!1d10659.615006685735!2d7.370466!3d48.09279945!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!5e0!3m2!1sfr!2sfr!4v1651837429050!5m2!1sfr!2sfr" class="border border-dark" width="600" height="450" style="border:0;" allowfullscreen="" loading="lazy" referrerpolicy="no-referrer-when-downgrade"></iframe>
+                        </div>
+                        <div class="col text-center mt-5">
+                            
+                            <h2 class="card-title fw-normal">FakeBnB</h2>
+                            <p class="card-subtitle fs-4 fw-bold mt-3">Agence de Colmar</p>
+                            <hr>
+                            <div class="text-start">
+                            <p class="card-text fs-4  m-5 mt-0 mb-2"><i class="bi bi-mailbox "></i> 1 rue d'Alfred 68000 Colmar</p>
+                            <p class="card-text fs-4  m-5 mt-0 mb-2"><i class="bi bi-telephone"></i> 03 98 45 63 24</p>
+                            <p class="card-text fs-4  m-5 mt-0 mb-2"><i class="bi bi-envelope"></i> contact@FakeBNB.com</p>
+                            <a href="#" class="fs-4  m-5 mt-0 mb-2"><i class="bi bi-globe"></i> https://FakeBnb.com</a>
+                            </div>
+                           
+                            
+                        </div>   
+                    </div>
+                </div>
+            </div>
+        </div>
+
+</main>
+<footer>
+    <div class="container-fluid bg-light">
+        <div class="row mt-4">
+        <p class="text-center" >FakeBnB - 2022 - Tout droit réservés</p>
+        </div>
+    </div>
+</footer>
+
+        <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.1.3/dist/js/bootstrap.bundle.min.js" integrity="sha384-ka7Sk0Gln4gmtz2MlQnikT1wXgYsOg+OMhuP+IlRH9sENBO0LRn5q+8nbTov4+1p" crossorigin="anonymous"></script>
+    </body>
+</html>

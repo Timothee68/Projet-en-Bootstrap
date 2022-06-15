@@ -1,0 +1,35 @@
+
+body{
+    background-image: url("../img/background.jpeg");
+    background-repeat: no-repeat;
+    background-size: cover;
+}
+
+span{
+    float:right;
+}
+
+/* acceuil css */
+.nav{
+    font-size: 1em; 
+}
+
+.nav-link{
+    color: black !important;
+}
+
+.container .col-12 .bg-light .mt-4{
+    background-color: rgba(255, 255, 255, 0.158) !important;
+}
+
+#stars{
+    display: flex ;
+    flex-direction: row !important;
+
+}
+.res{
+
+    object-fit: cover;
+    max-height: 30vh;
+
+}
